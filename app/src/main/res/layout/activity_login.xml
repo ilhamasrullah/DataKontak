@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradation_background"
+    tools:context="android.example.com.datakontak.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="@color/white"
+            android:background="@drawable/circular_border_white"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/edt_password"
+            android:background="@drawable/circular_border_white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColorHint="@color/white"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:background="@drawable/rounded_button"
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"
+
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:textColorHint="@color/white"
+            android:background="@drawable/circular_border"
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Register"/>
+    </LinearLayout>
+
+</RelativeLayout>
